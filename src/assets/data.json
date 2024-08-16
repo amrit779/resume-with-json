@@ -1,27 +1,49 @@
+{
   "personal_info": {
-    "name": "John Doe",
+    "first_name": "John",
+    "last_name": "Doe",
     "email": "jon@xyz",
     "phone": "1234567890",
-    "address": "123 Main St, City, State, 12345"
+    "address": "123 Main St, City, State, 12345",
+    "about": "I am a software engineer with 2 years of experience in Java and Python. I have a Bachelor's degree in Computer Science from XYZ University and a Master's degree in Computer Science from ABC University. I have worked at Google as a Software Engineer and interned at Facebook as a Software Engineer Intern. I have experience working on the search team at Google and the ads team at Facebook. I have expertise in Java and intermediate skills in Python and JavaScript. I have worked on projects using Java, Spring Boot, MySQL, Python, Django, and PostgreSQL. I have certifications in Java and Python. I am a native English speaker and have intermediate proficiency in Spanish. In my free time, I enjoy reading, traveling, and cooking."
   },
-  "education": [
+  "social_links": [
     {
-      "degree": "Bachelors",
-      "major": "Computer Science",
-      "school": "XYZ University",
-      "graduation": "May 2019"
+      "link": "www.linkedin.com/in/johndoe",
+      "name": "LinkedIn",
+      "icon": "fab fa-linkedin-in"
     },
     {
-      "degree": "Masters",
-      "major": "Computer Science",
-      "school": "ABC University",
-      "graduation": "May 2021"
+      "link": "www.github.com/johndoe",
+      "name": "GitHub",
+      "icon": "fab fa-github"
+    },
+    {
+      "link": "www.twitter.com/johndoe",
+      "name": "Twitter",
+      "icon": "fab fa-twitter"
+    },
+    {
+      "link": "www.facebook.com/johndoe",
+      "name": "Facebook",
+      "icon": "fab fa-facebook-f"
+    },
+    {
+      "link": "www.instagram.com/johndoe",
+      "name": "Instagram",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "link": "www.pinterest.com/johndoe",
+      "name": "Pinterest",
+      "icon": "fab fa-pinterest"
     }
   ],
   "experience": [
     {
       "title": "Software Engineer",
       "company": "Google",
+      "about" : "Google is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.",
       "location": "Mountain View, CA",
       "from": "May 2021",
       "to": "Present",
@@ -31,34 +53,99 @@
       "title": "Software Engineer Intern",
       "company": "Facebook",
       "location": "Menlo Park, CA",
+      "about" : "Facebook is an American online social media and social networking service company based in Menlo Park, California. It was founded by Mark Zuckerberg, along with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.",
       "from": "May 2020",
       "to": "August 2020",
       "description": "Worked on the ads team"
     }
   ],
+  "education": [
+    {
+      "degree": "Bachelors",
+      "major": "Computer Science",
+      "name": "XYZ University",
+      "from_year": "May 2019",
+      "to_year": "May 2021",
+      "location": "City, State",
+      "about": "XYZ University is a public research university located in City, State. It is a member of the Association of American Universities and offers over 200 undergraduate and graduate degree programs.",
+      "cgpa": "7.5"
+    },
+    {
+      "degree": "Masters",
+      "major": "Computer Science",
+      "name": "ABC University",
+      "from_year": "May 2021",
+      "to_year": "May 2023",
+      "location": "City, State",
+      "about": "ABC University is a private research university located in City, State. It is known for its strong programs in computer science, engineering, and business.",
+      "cgpa": "8.0"
+    }
+  ],
   "skills": [
     {
       "name": "Java",
-      "level": "Expert"
+      "icon": "fab fa-java"
     },
     {
       "name": "Python",
-      "level": "Intermediate"
+      "icon": "fab fa-python"
     },
     {
       "name": "JavaScript",
-      "level": "Intermediate"
+      "icon": "fab fa-js"
+    },
+    {
+      "name": "Spring Boot",
+      "icon": "fab fa-spring"
+    },
+    {
+      "name": "MySQL",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "Django",
+      "icon": "fab fa-python"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "HTML",
+      "icon": "fab fa-html5"
+    },
+    {
+      "name": "CSS",
+      "icon": "fab fa-css3-alt"
+    },
+    {
+      "name": "React",
+      "icon": "fab fa-react"
+    },
+    {
+      "name": "Angular",
+      "icon": "fab fa-angular"
+    },
+    {
+      "name": "Node.js",
+      "icon": "fab fa-node-js"
+    },
+    {
+      "name": "Express.js",
+      "icon": "fas fa-server"
     }
   ],
   "projects": [
     {
       "name": "Project 1",
-      "description": "This is a project",
+      "description": "This is a project description for Project 1 which is a web application built using Java and Spring Boot.",
       "technologies": [
         "Java",
         "Spring Boot",
         "MySQL"
-      ]
+      ],
+      "link": "www.project1.com",
+      "github": "www.github.com/project1"
     },
     {
       "name": "Project 2",
@@ -67,7 +154,9 @@
         "Python",
         "Django",
         "PostgreSQL"
-      ]
+      ],
+      "link": "www.project2.com",
+      "github": "www.github.com/project2"
     }
   ],
   "certifications": [
@@ -95,12 +184,13 @@
     "Traveling",
     "Cooking"
   ],
-  "website":{
-    "font-family":"",
+  "website": {
+    "font-family": "",
     "font-size": "",
     "font-weight": "",
     "line-height": "",
-    "color":"",
+    "color": "",
     "text-align": "",
     "background-color": ""
   }
+}

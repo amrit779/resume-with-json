@@ -7,13 +7,12 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  private dataUrl = 'assets/data.json';
+  private dataUrl = 'http://localhost:4200/assets/data.json';
   constructor(private http: HttpClient) { }
 
   getData(): Observable<any> {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      
       'Accept': 'application/json',
       'Access-Control-Allow-Origin': '*'
     });

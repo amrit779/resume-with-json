@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { DataService } from '../shared/data.service';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,FormsModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
