@@ -1,0 +1,106 @@
+  "personal_info": {
+    "name": "John Doe",
+    "email": "jon@xyz",
+    "phone": "1234567890",
+    "address": "123 Main St, City, State, 12345"
+  },
+  "education": [
+    {
+      "degree": "Bachelors",
+      "major": "Computer Science",
+      "school": "XYZ University",
+      "graduation": "May 2019"
+    },
+    {
+      "degree": "Masters",
+      "major": "Computer Science",
+      "school": "ABC University",
+      "graduation": "May 2021"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Google",
+      "location": "Mountain View, CA",
+      "from": "May 2021",
+      "to": "Present",
+      "description": "Worked on the search team"
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Facebook",
+      "location": "Menlo Park, CA",
+      "from": "May 2020",
+      "to": "August 2020",
+      "description": "Worked on the ads team"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Expert"
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project 1",
+      "description": "This is a project",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Project 2",
+      "description": "This is another project",
+      "technologies": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Java Certification",
+      "date": "May 2020"
+    },
+    {
+      "name": "Python Certification",
+      "date": "June 2020"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "Intermediate"
+    }
+  ],
+  "interests": [
+    "Reading",
+    "Traveling",
+    "Cooking"
+  ],
+  "website":{
+    "font-family":"",
+    "font-size": "",
+    "font-weight": "",
+    "line-height": "",
+    "color":"",
+    "text-align": "",
+    "background-color": ""
+  }

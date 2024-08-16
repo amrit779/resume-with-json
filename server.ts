@@ -40,6 +40,8 @@ export function app(): express.Express {
       .catch((err) => next(err));
   });
 
+  // server.use('/assets', express.static(join(serverDistFolder, 'assets')));
+
   return server;
 }
 
