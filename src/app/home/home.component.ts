@@ -23,7 +23,6 @@ export class HomeComponent {
   async getInformation() {
     await this.dataService.getData().subscribe(data => {
       this.items = data;
-      console.log("this>>", this.items);
     });
   }
 
