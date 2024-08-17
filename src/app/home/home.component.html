@@ -32,7 +32,7 @@
             </div>
             <p class="lead mb-5">{{items?.personal_info.about}}</p>
             <div class="social-icons">
-                <a *ngFor="let link of items.social_links" class="social-icon" [href]="link.link"><i class="fab {{link.icon}}"></i></a>
+                <a *ngFor="let link of items?.social_links" class="social-icon" [href]="link.link"><i class="fab {{link.icon}}"></i></a>
             </div>
         </div>
     </section>
@@ -41,7 +41,7 @@
     <section class="resume-section" id="experience">
         <div class="resume-section-content">
             <h2 class="mb-5">Experience</h2>
-            <div *ngFor="let ex of items.experience" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div *ngFor="let ex of items?.experience" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">{{ex.title}}</h3>
                     <div class="subheading mb-3"><b>{{ex.company}} </b> <small>{{ex.location}}</small></div>
@@ -56,7 +56,7 @@
     <section class="resume-section" id="education">
         <div class="resume-section-content">
             <h2 class="mb-5">Education</h2>
-            <div *ngFor="let sch of items.education" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div *ngFor="let sch of items?.education" class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">{{sch.name}}</h3>
                     <div class="subheading mb-3"><b>{{sch.major}}</b> <small>{{sch.location}}</small></div>
@@ -74,7 +74,7 @@
             <h2 class="mb-5">Skills</h2>
             <div class="subheading mb-3">Programming Languages & Tools</div>
             <ul class="list-inline dev-icons">
-                <li *ngFor="let sk of items.skills" class="list-inline-item"><i class="{{sk.icon}}"></i></li>
+                <li *ngFor="let sk of items?.skills" class="list-inline-item"><i class="{{sk.icon}}"></i></li>
                 <!-- <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                 <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                 <li class="list-inline-item"><i class="fab fa-angular"></i></li>
@@ -114,7 +114,7 @@
         <div class="resume-section-content">
             <h2 class="mb-5">Projects</h2>
             <div class="row">
-            <div *ngFor="let pro of items.projects" class=" col-lg-6 d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div *ngFor="let pro of items?.projects" class=" col-lg-6 d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                     <h3 class="mb-0">{{pro.name}}</h3>
                     <div class="mt-2"><a href="{{pro.link}}">{{pro.link}}</a></div>
